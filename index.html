@@ -7,13 +7,39 @@
     <title>Sorteador</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    /*let vetor = []
+    let sequence = []
+    let gerarIntAl
+
+    let minimo = parseInt(prompt("Insira menor valor: "))
+    let maximo = parseInt(prompt("Insira maior valor: "))
+    
+    function sorteio(minimo, maximo) {
+        for (let index = 0; index < 60; index++) {
+            vetor[index] = Math.floor(Math.random() * (99 - 10) + 10);
+        }
+
+        for (let index = 0; index < 6; index++) {
+            sequence[index] = vetor[Math.floor(Math.random() * (60 - 0) + 0)]
+        }
+        console.log(sequence)
+    }
+    document.getElementById("resultado").innerHTML = sequence;
+    console.log(sequence)*/
+</script>
+
 <body>
     <div class="box">
         <h1></h1>
-        <button>Sortear</button>
+        
+        <button onclick="sorteio()">Sortear</button>
+        <h2 id="resultado"></h2>
     </div>
 
 
     <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>

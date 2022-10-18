@@ -14,7 +14,7 @@ for (let index = 0; index < 60; index++) {
 
 
 for (let index = 0; index < 6; index++) {
-    sequencia[index] = numeros[gerarIntAleatorio(0, 60)];
+    sequencia[index] = numeros[gerarIntAleatorio(0, 60)]; // numero aleatorio pra acessar indice do vetor numeros
 }
 
 
